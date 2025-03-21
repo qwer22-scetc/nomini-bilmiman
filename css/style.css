@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+*::selection{
+  background-color: #8a2be2;
+  color: #1F1F1F;
+}
+
 ol,ul {
   list-style: none;
   margin: 0;
@@ -82,3 +87,43 @@ transition: all 0.8s ease;
   opacity: 0.4;
 }
 /* heaader end */
+
+/*hero start */
+.hero {
+  padding-top: 100px;
+  padding-bottom: 124px;
+}
+
+.hero__title {
+font-weight: 700;
+font-size: 72px;
+line-height: 1.25;
+letter-spacing: 0.2px;
+color: #1F1F1F;
+max-width: 935px;
+width: 100%;
+margin-bottom: 24px;
+}
+
+.hero__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__circle {
+  height: 32px;
+  width: 32px;
+  background-color: #C4C4C4;
+  border-radius: 50%;
+}
+
+.hero__text-wrapper {
+  max-width: 736px;
+  display: flex;
+}
+
+.hero__text:not(:last-child) {
+  margin-right: 41px;
+}
+
+/* hero end */
