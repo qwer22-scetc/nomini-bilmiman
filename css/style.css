@@ -126,4 +126,49 @@ margin-bottom: 24px;
   margin-right: 41px;
 }
 
-/* hero end */
+/* hero end*/
+
+/* recent-work start */
+.recent-work {
+  padding-top: 101px;
+  padding-bottom: 101px;
+}
+
+.recent-work__title {
+  font-family: 'Libre Baskerville',serif;
+font-weight: 400;
+font-size: 52px;
+line-height: 1.5;
+letter-spacing: 0.2px;
+color: #1F1F1F;
+margin-bottom: 43px;
+}
+
+.recent-work__list-wrapper {
+  display: flex;
+}
+.recent-work__list-left {
+}
+.recent-work__item-left {
+}
+.recent-work__left-img {
+}
+.recent-work__left-info {
+}
+.recent-work__left-title {
+}
+.recent-work__left-span {
+}
+.recent-work__list-right {
+}
+.recent-work__item-right {
+}
+.recent-work__right-img {
+}
+.recent-work__right-info {
+}
+.recent-work__right-title {
+}
+.recent-work__right-span {
+}
+/* recent-work end */
