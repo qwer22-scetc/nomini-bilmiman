@@ -176,6 +176,8 @@ body {
 	line-height: 1.4;
 	letter-spacing: 0.2px;
 	text-align: center;
+	cursor: pointer;
+	transition: all 0.8s ease;
 }
 
 /* recent-work end */
